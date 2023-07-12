@@ -17,7 +17,7 @@ getProductsSortedByPrice: `api/v1/products/sort/price`
 
 getProductSortedByColor: `api/v1/products/sort/color`
 
-getProductSortedByDateOfReceipt: `api/v1/products/sort/dateOfReceipt`
+getProductSortedByDateOfReceipt: `api/v1/products/sort/date-of-receipt`
 
 getTotalCost: `api/v1/products/totalCost`
 
