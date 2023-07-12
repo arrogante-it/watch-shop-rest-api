@@ -1,15 +1,16 @@
-package com.arroganteit.clockshop.models.subClasses;
+package com.watchshop.app.presentation.models.subClasses;
 
-import com.arroganteit.clockshop.models.abstractClasses.Product;
+import com.watchshop.app.presentation.models.abstractClasses.AbstractProduct;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.Builder;
 
 import java.time.LocalDate;
 
 @Getter
 @Setter
-public class Clock extends Product {
-
+@Builder
+public class Clock extends AbstractProduct {
     private String style;
 
     public Clock(double price, String color, LocalDate dateOfReceipt, String style) {

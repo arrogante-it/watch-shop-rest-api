@@ -1,17 +1,18 @@
-package com.arroganteit.clockshop.models.abstractClasses;
+package com.watchshop.app.presentation.models.abstractClasses;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 @AllArgsConstructor
 @Getter
 @Setter
-public abstract class Product {
-
+@Builder
+public abstract class AbstractProduct {
     private double price;
 
     private String color;

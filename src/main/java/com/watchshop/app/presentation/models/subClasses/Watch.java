@@ -1,6 +1,7 @@
-package com.arroganteit.clockshop.models.subClasses;
+package com.watchshop.app.presentation.models.subClasses;
 
-import com.arroganteit.clockshop.models.abstractClasses.Product;
+import com.watchshop.app.presentation.models.abstractClasses.AbstractProduct;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,8 +9,8 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-public class Watch extends Product {
-
+@Builder
+public class Watch extends AbstractProduct {
     private String brand;
 
     public Watch(double price, String color, LocalDate dateOfReceipt, String brand) {
