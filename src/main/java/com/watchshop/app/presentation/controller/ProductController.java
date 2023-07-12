@@ -35,7 +35,7 @@ public class ProductController {
         return productService.getProductsSortedByColor();
     }
 
-    @GetMapping("/sort/dateOfReceipt")
+    @GetMapping("/sort/date-of-receipt")
     public List<AbstractProduct> getProductSortedByDateOfReceipt() {
         return productService.getProductsSortedByDateOfReceipt();
     }
