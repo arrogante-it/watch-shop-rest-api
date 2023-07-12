@@ -26,6 +26,7 @@ addWatch: `api/v1/products/watch`
 example JSON:
 
 {
+
 	"price": 144.5,
 	"color": "Dark-Metal-Green",
 	"dateOfReceipt": "2023-02-01",
@@ -37,6 +38,7 @@ addClock: `api/v1/products/clock`
 example JSON:
 
 {
+
 	"price": 75.5,
 	"color": "Silver",
 	"dateOfReceipt": "2023-03-02",
