@@ -1,7 +1,6 @@
 package com.watchshop.app.presentation.models.subClasses;
 
 import com.watchshop.app.presentation.models.abstractClasses.AbstractProduct;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +8,6 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-@Builder
 public class Watch extends AbstractProduct {
     private String brand;
 
