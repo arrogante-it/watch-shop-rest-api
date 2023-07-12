@@ -6,8 +6,8 @@ Tested.
 
 Prerequisite:
 -
-JDK 11 or higher
-Maven 4.0.0
+- JDK 11 or higher
+- Maven 4.0.0
 
 Program main functional:
 -
